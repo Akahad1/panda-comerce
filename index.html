@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="container">
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg bg-light fixed-top ">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="images/logo.png" alt="" >
@@ -22,13 +22,13 @@
               </li>
               
               <li class="nav-item">
-                <a class="nav-link" href="#">Shoes</a>
+                <a class="nav-link" href="#shoes">Shoes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Backpoint</a>
+                <a class="nav-link" href="#backpack">Backpoint</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Subscriber</a>
+                <a class="nav-link" href="#subscriber">Subscriber</a>
               </li>
               
               
@@ -119,11 +119,11 @@
         </div>
       </section>
       <!-- shoes-section -->
-      <section class="container">
+      <section class="container" id="shoes">
         <h2>Shoes</h2>
         <div class="card-group">
           <div class="row ">
-            <div class="col">
+            <div class="col col-lg-4 col-md-6 col-sm-12">
               <div class="card border-0 shadow-lg p-3 mb-5 bg-body rounded h-100">
                 <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -137,7 +137,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col col-lg-4 col-md-6 col-sm-12">
               <div class="card border-0 shadow-lg p-3 mb-5 bg-body rounded h-100">
                 <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -150,7 +150,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col col-lg-4 col-md-6 col-sm-12">
               <div class="card border border-0 shadow-lg p-3 mb-5 bg-body rounded  h-100">
                 <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -172,10 +172,88 @@
         
       </section>
     
-      <!-- shoes-section -->
+      <!-- shoes-section end -->
+      <!-- Backpack start -->
+      <section class="container" id="backpack">
+        <h2>Backpack</h2>
+        <div class="card-group">
+          <div class="row ">
+            <div class="col col-lg-4 col-md-6 col-sm-12">
+              <div class="card border-0 shadow-lg p-3 mb-5 bg-body rounded h-60">
+                <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Supply 350</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                  <h2>$120</h2>
+                </div>
+                <div class="m-3">
+                  <div class="btn btn-info">Buy Now</div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-sm-12">
+              <div class="card border-0 shadow-lg p-3 mb-5 bg-body rounded h-60">
+                <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nike 360</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <h2>$320</h2>
+                </div>
+                <div class="m-3">
+                  <div class="btn btn-info">Buy Now</div>
+                </div>
+              </div>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-sm-12">
+              <div class="card border border-0 shadow-lg p-3 mb-5 bg-body rounded  h-60">
+                <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Red Airmax</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional. </p>
+                  <h2>$1600</h2>
+                </div>
+                <div class="m-3">
+                  <div class="btn btn-info">Buy Now</div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          
+          
+          
+        </div>
+        
+      </section>
+
+      <!-- Backpack end -->
+        <!-- Subscriber start -->
+        <h2>Subscriber</h2>
+        <section style="height: 300px;" class="container rounded-3 d-flex justify-content-center bg-info align-items-center " id="subscriber">
+          <div>
+            <h2>LET'S STAY IN TOUCH</h2>
+            <p>Get updates on sales, specials and more</p>
+            <form>
+              <div class="mb-3">
+                
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              
+              
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+
+        </section>
+        
+        <!-- Subscriber end -->
     </main>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
+  <footer class=" m-3 d-flex justify-content-center">
+    <p>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
+  </footer>
 </html>
